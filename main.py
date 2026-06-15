@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from routes.chat import router
 
 app=FastAPI()
 
@@ -8,3 +9,6 @@ def home():
         "message" : "Ai Assistant Backend running"
 
     }
+
+
+app.include_router(router)
