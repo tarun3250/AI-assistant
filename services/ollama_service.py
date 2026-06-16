@@ -16,8 +16,8 @@ def generate_response(question):
     return data["response"]
 
 
-if __name__ == "__main__":
-    answer = generate_response(
-        "What is FastAPI?"
-    )
-    print(answer)
+# if __name__ == "__main__":
+#     answer = generate_response(
+#         "What is FastAPI?"
+#     )
+#     print(answer)
